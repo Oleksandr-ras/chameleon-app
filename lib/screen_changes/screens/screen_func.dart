@@ -47,9 +47,9 @@ class ScreenFunctionality extends StatelessWidget {
             onTap: () {
               BlocProvider.of<ColorsBloc>(context).add(
                 TapOnScreen(
-                    red: Random().nextInt(255),
-                    green: Random().nextInt(255),
-                    blue: Random().nextInt(255)),
+                    red: Random().nextInt(255) + 1,
+                    green: Random().nextInt(255) + 1,
+                    blue: Random().nextInt(255) + 1),
               );
             },
             child: Scaffold(
