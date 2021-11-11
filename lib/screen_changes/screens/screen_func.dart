@@ -21,7 +21,7 @@ class ScreenFunctionality extends StatelessWidget {
   final int blue;
 
   //Apllication text
-  static const String appName = 'Chameleon app';
+  final String appName = 'Chameleon app';
   final String greeting = 'Hey there';
 
   //Aplication text style
@@ -56,7 +56,7 @@ class ScreenFunctionality extends StatelessWidget {
               backgroundColor:
                   Color.fromRGBO(state.red, state.green, state.blue, 1),
               appBar: AppBar(
-                title: const Text(appName),
+                title: Text(appName),
               ),
               body: Center(child: Text(greeting, style: textDecoration)),
             ));
@@ -69,7 +69,7 @@ class ScreenFunctionality extends StatelessWidget {
       }
       return Scaffold(
         appBar: AppBar(
-          title: const Text(appName),
+          title: Text(appName),
         ),
         body: Center(
           child: Text(
@@ -142,6 +142,6 @@ class InitializeScreen extends StatelessWidget {
             appBar: AppBar(
               title: Text(appName),
             ),
-            body: Center(child: Text('App Started', style: textDecoration))));
+            body: Center(child: Text(appName, style: textDecoration))));
   }
 }
