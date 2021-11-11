@@ -1,4 +1,4 @@
-import 'package:color_changer/changing_screen_color.dart/bloc/colors_bloc.dart';
+import 'package:color_changer/screen_changes/bloc/colors_bloc.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:flutter_bloc/flutter_bloc.dart';

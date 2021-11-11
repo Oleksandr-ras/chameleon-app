@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:color_changer/changing_screen_color.dart/bloc/colors_bloc.dart';
-import 'package:color_changer/changing_screen_color.dart/bloc/colors_events.dart';
-import 'package:color_changer/changing_screen_color.dart/bloc/colors_states.dart';
+import 'package:color_changer/screen_changes/bloc/colors_bloc.dart';
+import 'package:color_changer/screen_changes/bloc/colors_events.dart';
+import 'package:color_changer/screen_changes/bloc/colors_states.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';

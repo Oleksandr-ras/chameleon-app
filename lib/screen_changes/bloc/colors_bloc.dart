@@ -1,5 +1,5 @@
-import 'package:color_changer/changing_screen_color.dart/bloc/colors_events.dart';
-import 'package:color_changer/changing_screen_color.dart/bloc/colors_states.dart';
+import 'package:color_changer/screen_changes/bloc/colors_events.dart';
+import 'package:color_changer/screen_changes/bloc/colors_states.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class ColorsBloc extends Bloc<ColorsEvent, ColorsState> {
