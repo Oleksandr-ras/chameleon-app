@@ -15,11 +15,11 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   //Random color selection
-  int red = Random().nextInt(255);
+  int red = Random().nextInt(255) + 1;
 
-  int green = Random().nextInt(255);
+  int green = Random().nextInt(255) + 1;
 
-  int blue = Random().nextInt(255);
+  int blue = Random().nextInt(255) + 1;
 
   @override
   Widget build(BuildContext context) {
